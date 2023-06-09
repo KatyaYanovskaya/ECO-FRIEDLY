@@ -1,3 +1,3 @@
 ## Мой первый сайт
 - сайт о политре цветов 
-[ECO-FRIEDLY](https://katyayanovskaya.github.io/ECO-FRIEDLY/)
+[ECO-FRIENDLY](https://katyayanovskaya.github.io/ECO-FRIEDLY/)
