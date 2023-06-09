@@ -1,0 +1,68 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+/* line 4, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 21, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 27, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 30, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* remember to define focus styles! */
+/* line 37, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/resets.scss */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+/* line 42, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/resets.scss */
+ins {
+  text-decoration: none;
+}
+
+/* line 45, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/resets.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+/* line 50, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*# sourceMappingURL=resets.css.map */

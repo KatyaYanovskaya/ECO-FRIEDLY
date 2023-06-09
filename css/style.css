@@ -1,0 +1,1731 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/normalizez.scss */
+[hidden] {
+  display: none;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+/* line 4, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 21, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 27, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 30, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* remember to define focus styles! */
+/* line 37, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/resets.scss */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+/* line 42, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/resets.scss */
+ins {
+  text-decoration: none;
+}
+
+/* line 45, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/resets.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+/* line 50, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 4, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+* {
+  box-sizing: border-box;
+  font-family: 'Marcellus', serif;
+}
+
+/* line 9, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.container {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+/* line 15, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.main-section {
+  display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/bg.image.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 58px;
+}
+
+/* line 25, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.main-section__right-wrapper {
+  margin-top: 23px;
+  width: 50%;
+  margin-left: 42px;
+}
+
+/* line 29, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.main-section__left-wrapper {
+  width: 50%;
+  margin-top: 23px;
+}
+
+/* line 32, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.main-section__title {
+  font-size: 63px;
+  color: #fff;
+  margin-bottom: 51px;
+}
+
+/* line 36, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.main-section__nav-menu-right {
+  display: flex;
+  margin-bottom: 69px;
+}
+
+/* line 39, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.main-section__nav-menu-left {
+  display: flex;
+  justify-content: end;
+  margin-right: 42px;
+  margin-bottom: 620px;
+}
+
+/* line 44, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.main-section__nav-menu {
+  margin-right: 42px;
+}
+
+/* line 46, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.main-section__nav-menu:last-child {
+  margin-right: 0;
+}
+
+/* line 48, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.main-section__nav-menu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* line 52, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.main-section__nav-menu a:hover {
+  color: #000000;
+  transition: 0.5s;
+  text-decoration: underline;
+}
+
+/* line 58, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.button {
+  position: relative;
+  display: block;
+  border: 2px solid #1F1E1E;
+  border-radius: 4.16667px;
+  width: 200px;
+  height: 37px;
+  color: #fff;
+  cursor: pointer;
+  background: #141806;
+  transition: 0.5s;
+  left: 0;
+}
+
+/* line 70, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.button:hover {
+  background: #676B4A;
+  transition: 0.5s;
+  width: 202px;
+  color: #000;
+}
+
+/* line 76, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.option {
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+/* line 79, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.option__flex {
+  display: flex;
+  justify-content: space-between;
+  width: 1216px;
+  margin: 0 auto;
+}
+
+/* line 84, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.option__flex li {
+  text-align: start;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+/* line 88, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.option__flex span {
+  position: relative;
+  left: 40px;
+  font-size: 30px;
+}
+
+/* line 94, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.new-drops__title {
+  text-align: center;
+  font-size: 125px;
+  margin-bottom: 68px;
+}
+
+/* line 101, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.second-section__button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 142px;
+  left: 0;
+}
+
+/* line 106, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.second-section__button:hover {
+  background: #fff;
+}
+
+/* line 109, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.second-section__our-mission_text {
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+/* line 115, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.second-section__our-mission_title {
+  font-size: 40px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 46px;
+  margin-bottom: 96px;
+}
+
+/* line 122, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.catalog {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  margin-bottom: 60px;
+}
+
+/* line 127, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.catalog img {
+  margin-bottom: 20px;
+}
+
+/* line 129, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.catalog figcaption {
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 134, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.line {
+  width: 1300px;
+  background: rgba(31, 30, 30, 0.1);
+  margin: 0 auto;
+  border-width: 0.01px;
+}
+
+/* line 140, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.third-section {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+/* line 144, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.third-section__aside {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+/* line 148, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.third-section__rigth-wrap {
+  width: 546px;
+  height: 546px;
+  background: #F4EDE6;
+  margin-left: 8px;
+}
+
+/* line 153, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.third-section__rigth-wrap:last-child {
+  margin-right: 0;
+}
+
+/* line 155, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.third-section_title {
+  color: #425E44;
+  text-align: center;
+  font-size: 52px;
+  line-height: 58px;
+  margin-top: 150px;
+  margin-bottom: 157px;
+}
+
+/* line 162, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.third-section_text {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #425E44;
+}
+
+/* line 167, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.third-section__slogan {
+  text-align: center;
+}
+
+/* line 169, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.third-section_caption {
+  font-size: 192px;
+  margin-bottom: 40px;
+}
+
+/* line 172, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.third-section_desc {
+  font-size: 20px;
+  line-height: 29px;
+  margin-bottom: 40px;
+}
+
+/* line 176, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.third-section__button {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 179, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.third-section__button:hover {
+  background: #fff;
+}
+
+/* line 182, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.fourth-section {
+  max-height: 100%;
+}
+
+/* line 184, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.fourth-section__image-wrap {
+  display: flex;
+  justify-content: center;
+  height: 650px;
+}
+
+/* line 188, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.fourth-section__left-wrap {
+  margin-right: 8px;
+}
+
+/* line 190, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.fourth-section__left-wrap:last-child {
+  margin-right: 0;
+}
+
+/* line 192, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.fourth-section_title {
+  font-size: 46px;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* line 197, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.fourth-section__title-btn {
+  position: relative;
+  bottom: 420px;
+}
+
+/* line 200, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.fourth-section__button {
+  position: relative;
+  left: 170px;
+  text-transform: uppercase;
+}
+
+/* line 205, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.fourth-section__button:hover {
+  background: #E2E0DB;
+}
+
+/* line 207, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.fourth-section__image-grid {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 212, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.fourth-section_left-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: .5em;
+  margin-right: 8px;
+}
+
+/* line 217, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.fourth-section_left-wrap:last-child {
+  margin-right: 0px;
+}
+
+/* line 219, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.fourth-section_rigth-wrap {
+  width: 546px;
+  height: 546px;
+  background: #C6BC8A;
+}
+
+/* line 224, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.rigth {
+  color: #425E44;
+  text-align: center;
+}
+
+/* line 227, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.rigth_title {
+  font-size: 52px;
+  line-height: 58px;
+  margin-top: 157px;
+  margin-bottom: 25px;
+}
+
+/* line 232, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.rigth_inst {
+  margin-bottom: 163px;
+  font-size: 20px;
+}
+
+/* line 235, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.rigth_read-more {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+/* line 239, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.elipces {
+  height: 600px;
+}
+
+/* line 241, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.elipces__grey {
+  width: 150px;
+  height: 150px;
+  background: #6A727D;
+  border-radius: 9999px;
+  position: relative;
+  right: -57px;
+  bottom: 485px;
+}
+
+/* line 249, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.elipces__green {
+  width: 150px;
+  height: 150px;
+  background: #445F45;
+  border-radius: 9999px;
+  position: relative;
+  left: 333px;
+  bottom: 632px;
+}
+
+/* line 258, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.elipces__beige {
+  width: 150px;
+  height: 150px;
+  background: #E0C3B0;
+  border-radius: 9999px;
+  position: relative;
+  left: 60px;
+  bottom: 513px;
+}
+
+/* line 266, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.elipces__black {
+  width: 150px;
+  height: 150px;
+  background: #000000;
+  border-radius: 9999px;
+  position: relative;
+  left: 338px;
+  bottom: 663px;
+}
+
+/* line 280, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.footer-item__first-section {
+  display: flex;
+  height: 300px;
+  width: 1305px;
+  margin: 0 auto;
+}
+
+/* line 286, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.footer-item__left-wrap {
+  width: 725px;
+  margin-left: 70px;
+}
+
+/* line 290, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.footer-item__right-wrap {
+  width: 580px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+/* line 295, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.footer-item__text {
+  font-size: 38px;
+  line-height: 46px;
+  margin-top: 50px;
+  margin-bottom: 8px;
+}
+
+/* line 300, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.footer-item__text2 {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+/* line 303, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.footer-item__input {
+  margin-bottom: 60px;
+  height: 37px;
+  width: 267px;
+}
+
+/* line 307, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.footer-item li {
+  margin-bottom: 5px;
+}
+
+/* line 309, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.footer-item li:first-child {
+  margin-bottom: 12px;
+}
+
+/* line 311, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.footer-item a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 13px;
+  cursor: pointer;
+  z-index: 99;
+}
+
+/* line 318, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.footer-item a:hover {
+  text-decoration: underline;
+}
+
+/* line 320, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.footer-item_palette {
+  font-size: 310px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  height: 345px;
+  color: #425E44;
+}
+
+/* line 326, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.footer-item_list {
+  display: inline-block;
+  float: right;
+  margin-right: 35px;
+}
+
+/* line 330, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.vl {
+  border-left: 1px solid rgba(31, 30, 30, 0.1);
+  height: 268.03px;
+  width: 1px;
+  background-color: rgba(31, 30, 30, 0.1);
+  position: relative;
+  left: 659px;
+  bottom: 245px;
+}
+
+/* line 339, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.input-group-btn {
+  position: relative;
+}
+
+/* line 343, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.btn-default {
+  position: absolute;
+  left: -39px;
+  top: 1px;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* line 351, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.author {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  top: 195px;
+  right: 405px;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  height: 0;
+}
+
+/* line 362, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+.author_info {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 1220px) {
+  /* line 369, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .container {
+    overflow: hidden;
+  }
+  /* line 373, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .main-section__nav-menu a {
+    font-size: 15px;
+  }
+  /* line 375, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .line {
+    width: 1170px;
+  }
+  /* line 377, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item_palette {
+    font-size: 270px;
+  }
+  /* line 380, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .option__flex {
+    width: 1000px;
+  }
+  /* line 382, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .option__flex span {
+    left: 20px;
+  }
+  /* line 385, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .new-drops__title {
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 45px;
+  }
+  /* line 389, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .catalog {
+    display: grid;
+    grid-template-columns: 275px 130px 275px 130px 275px;
+    justify-content: center;
+  }
+  /* line 393, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .line {
+    width: 1100px;
+  }
+  /* line 397, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .third-section img {
+    width: 430px;
+  }
+  /* line 399, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .third-section__rigth-wrap {
+    width: 430px;
+    height: 430px;
+  }
+  /* line 402, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .third-section_title {
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 80px;
+    margin-bottom: 120px;
+  }
+  /* line 407, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .third-section_caption {
+    font-size: 100px;
+  }
+  /* line 411, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section__image-wrap {
+    height: 500px;
+  }
+  /* line 413, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section__img {
+    width: 430px;
+  }
+  /* line 415, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section_title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  /* line 418, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section__title-btn {
+    bottom: 340px;
+  }
+  /* line 420, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section__button {
+    left: 115px;
+  }
+  /* line 422, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section_smal-img {
+    width: 211px;
+  }
+  /* line 424, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section .elipces__grey {
+    display: none;
+  }
+  /* line 426, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section .elipces__green {
+    display: none;
+  }
+  /* line 428, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section .elipces__beige {
+    display: none;
+  }
+  /* line 430, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section .elipces__black {
+    display: none;
+  }
+  /* line 432, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section_rigth-wrap {
+    width: 430px;
+    height: 430px;
+  }
+  /* line 435, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .elipces {
+    height: 470px;
+  }
+  /* line 438, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .rigth_title {
+    font-size: 40px;
+    margin-top: 75px;
+    margin-bottom: 100px;
+  }
+  /* line 442, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .rigth_inst {
+    margin-bottom: 20px;
+  }
+  /* line 446, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item__right-wrap {
+    width: 400px;
+  }
+  /* line 448, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item__left-wrap {
+    width: 700px;
+  }
+  /* line 450, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item_palette {
+    font-size: 230px;
+    height: 245px;
+  }
+  /* line 454, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .vl {
+    left: 640px;
+  }
+  /* line 456, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .author {
+    right: 255px;
+  }
+}
+
+@media (max-width: 1020px) {
+  /* line 465, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .container {
+    overflow: hidden;
+  }
+  /* line 468, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .main-section {
+    height: 420px;
+  }
+  /* line 471, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .main-section__nav-menu a {
+    font-size: 13px;
+  }
+  /* line 473, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .main-section__title {
+    font-size: 53px;
+  }
+  /* line 477, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .option__flex {
+    width: 650px;
+  }
+  /* line 479, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .option__flex li {
+    margin-left: 20px;
+    font-size: 12px;
+  }
+  /* line 482, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .option__flex span {
+    left: 5px;
+    font-size: 25px;
+  }
+  /* line 486, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .catalog {
+    grid-template-columns: 200px 100px 200px 100px 200px;
+    justify-content: center;
+  }
+  /* line 489, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .catalog img {
+    width: 120px;
+  }
+  /* line 494, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .second-section__our-mission_title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  /* line 500, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .line {
+    width: 670px;
+  }
+  /* line 504, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .third-section img {
+    width: 300px;
+  }
+  /* line 506, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .third-section__rigth-wrap {
+    width: 300px;
+    height: 300px;
+  }
+  /* line 509, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .third-section_title {
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 29px;
+    margin-bottom: 104px;
+  }
+  /* line 514, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .third-section_desc {
+    font-size: 15px;
+    line-height: 19px;
+  }
+  /* line 519, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section__img {
+    width: 300px;
+  }
+  /* line 521, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section_title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  /* line 524, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section__title-btn {
+    bottom: 254px;
+  }
+  /* line 526, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section__button {
+    left: 52px;
+  }
+  /* line 528, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section__image-wrap {
+    height: 370px;
+  }
+  /* line 530, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section_rigth-wrap {
+    width: 300px;
+    height: 300px;
+  }
+  /* line 533, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section_smal-img {
+    width: 146px;
+  }
+  /* line 537, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .rigth_title {
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 38px;
+  }
+  /* line 542, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .elipces {
+    height: 345px;
+  }
+  /* line 546, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item__left-wrap {
+    width: 430px;
+  }
+  /* line 548, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item__text2 {
+    font-size: 10px;
+  }
+  /* line 550, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item a {
+    font-size: 10px;
+  }
+  /* line 552, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item__text {
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 50px;
+    margin-bottom: 34px;
+  }
+  /* line 557, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item__input {
+    margin-bottom: 60px;
+    height: 36px;
+    width: 222px;
+  }
+  /* line 561, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item_palette {
+    font-size: 160px;
+    height: 181px;
+  }
+  /* line 564, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .author {
+    right: 280px;
+  }
+  /* line 567, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .vl {
+    left: 408px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 762px) {
+  /* line 575, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .container {
+    overflow: hidden;
+  }
+  /* line 578, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .main-section {
+    height: 420px;
+  }
+  /* line 581, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .main-section__nav-menu a {
+    font-size: 13px;
+  }
+  /* line 583, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .main-section__title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  /* line 586, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .button {
+    font-size: 12px;
+    width: 140px;
+  }
+  /* line 589, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .button:hover {
+    width: 142px;
+  }
+  /* line 592, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .option {
+    display: none;
+  }
+  /* line 596, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .new-drops__title {
+    font-size: 60px;
+    margin-bottom: 19px;
+  }
+  /* line 600, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .catalog {
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  /* line 604, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .catalog img {
+    width: 90px;
+  }
+  /* line 606, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .catalog figcaption {
+    font-size: 11px;
+  }
+  /* line 610, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .second-section__button {
+    margin-bottom: 50px;
+  }
+  /* line 613, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .second-section__our-mission_title {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 40px;
+  }
+  /* line 620, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .line {
+    width: 470px;
+  }
+  /* line 623, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .third-section {
+    margin-top: 40px;
+  }
+  /* line 625, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .third-section img {
+    width: 220px;
+  }
+  /* line 627, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .third-section__rigth-wrap {
+    width: 220px;
+    height: 220px;
+  }
+  /* line 630, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .third-section_title {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 25px;
+    margin-bottom: 84px;
+  }
+  /* line 635, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .third-section_text {
+    font-size: 9px;
+  }
+  /* line 637, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .third-section_desc {
+    font-size: 15px;
+    line-height: 19px;
+  }
+  /* line 642, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section__img {
+    width: 220px;
+  }
+  /* line 644, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section_title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  /* line 647, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section__title-btn {
+    bottom: 194px;
+  }
+  /* line 649, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section__button {
+    left: 52px;
+  }
+  /* line 651, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section__image-wrap {
+    height: 270px;
+  }
+  /* line 653, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section_rigth-wrap {
+    width: 220px;
+    height: 220px;
+  }
+  /* line 656, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section_smal-img {
+    width: 106px;
+  }
+  /* line 660, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .rigth_title {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 35px;
+    margin-bottom: 75px;
+  }
+  /* line 665, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .rigth_inst {
+    font-size: 11px;
+  }
+  /* line 667, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .rigth_read-more {
+    font-size: 9px;
+  }
+  /* line 670, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .elipces {
+    height: 255px;
+  }
+  /* line 674, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item__first-section {
+    height: 222px;
+    width: 670px;
+  }
+  /* line 677, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item__left-wrap {
+    width: 260px;
+  }
+  /* line 679, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item__right-wrap {
+    width: 350px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+  }
+  /* line 683, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item__text2 {
+    font-size: 10px;
+  }
+  /* line 685, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item li {
+    margin-bottom: 0;
+  }
+  /* line 687, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item a {
+    font-size: 10px;
+  }
+  /* line 689, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item__text {
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 9px;
+    margin-bottom: 12px;
+  }
+  /* line 694, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item__input {
+    margin-bottom: 60px;
+    height: 34px;
+    width: 180px;
+  }
+  /* line 698, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item_palette {
+    font-size: 110px;
+    height: 130px;
+  }
+  /* line 701, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .author {
+    right: 200px;
+    top: 153px;
+    font-size: 9px;
+  }
+  /* line 706, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .vl {
+    left: 257px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 571px) {
+  /* line 713, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .container {
+    overflow: hidden;
+  }
+  /* line 716, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .main-section {
+    width: 100%;
+  }
+  /* line 718, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .main-section__nav-menu {
+    display: none;
+  }
+  /* line 720, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .main-section__left-wrapper {
+    width: 0;
+  }
+  /* line 723, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .main-section__right-wrapper {
+    margin: 0 auto;
+  }
+  /* line 726, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .main-section__title {
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+  }
+  /* line 731, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .main-button {
+    display: block;
+    margin: 0 auto;
+  }
+  /* line 737, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .option {
+    display: none;
+  }
+  /* line 741, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .new-drops__title {
+    font-size: 60px;
+    margin-bottom: 19px;
+  }
+  /* line 745, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .catalog {
+    grid-template-columns: 100px 100px 100px;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  /* line 749, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .catalog_last-figure {
+    display: none;
+  }
+  /* line 754, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .catalog img {
+    width: 90px;
+  }
+  /* line 756, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .catalog figcaption {
+    font-size: 11px;
+  }
+  /* line 760, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .second-section__button {
+    margin-bottom: 50px;
+  }
+  /* line 763, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .second-section__our-mission_title {
+    width: 305px;
+    font-size: 23px;
+    line-height: 26px;
+    margin-bottom: 40px;
+    text-align: start;
+  }
+  /* line 772, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .line {
+    width: 320px;
+  }
+  /* line 775, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .third-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  /* line 779, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .third-section__aside {
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  /* line 782, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .third-section img {
+    width: 220px;
+  }
+  /* line 784, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .third-section__rigth-wrap {
+    width: 220px;
+    height: 220px;
+    margin-left: 0;
+  }
+  /* line 788, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .third-section_title {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 25px;
+    margin-bottom: 84px;
+  }
+  /* line 794, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .third-section_desc {
+    font-size: 15px;
+    line-height: 19px;
+  }
+  /* line 799, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section__img {
+    height: 220px;
+    width: 220px;
+  }
+  /* line 802, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section_title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  /* line 805, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section__title-btn {
+    bottom: 194px;
+  }
+  /* line 807, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section__button {
+    left: 40px;
+  }
+  /* line 809, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section__image-wrap {
+    height: 457px;
+    flex-wrap: wrap;
+  }
+  /* line 812, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section_rigth-wrap {
+    width: 220px;
+    height: 220px;
+  }
+  /* line 815, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section_left-wrap {
+    margin-right: 0;
+  }
+  /* line 818, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section__left-wrap {
+    margin-right: 0;
+    height: 220px;
+  }
+  /* line 821, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section_smal-img {
+    width: 106px;
+  }
+  /* line 823, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .fourth-section__image-grid {
+    flex-wrap: wrap;
+    height: 457px;
+  }
+  /* line 828, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .rigth_title {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 35px;
+    margin-bottom: 75px;
+  }
+  /* line 833, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .rigth_inst {
+    font-size: 11px;
+  }
+  /* line 835, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .rigth_read-more {
+    font-size: 9px;
+  }
+  /* line 838, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .elipces {
+    height: 220px;
+  }
+  /* line 842, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item__first-section {
+    height: 410px;
+    width: 255px;
+    flex-wrap: wrap;
+  }
+  /* line 846, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item__left-wrap {
+    width: 260px;
+    margin-left: 0;
+    height: 20px;
+  }
+  /* line 850, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item__right-wrap {
+    width: 350px;
+    margin-top: 155px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  /* line 855, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item__text2 {
+    font-size: 10px;
+  }
+  /* line 857, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item li {
+    margin-bottom: 0;
+  }
+  /* line 859, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item a {
+    font-size: 10px;
+  }
+  /* line 861, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item__text {
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 9px;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  /* line 867, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item__input {
+    margin-bottom: 60px;
+    height: 34px;
+    width: 255px;
+  }
+  /* line 871, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item_palette {
+    font-size: 70px;
+    height: 115px;
+  }
+  /* line 875, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .footer-item_list:first-child {
+    margin-right: 0;
+  }
+  /* line 877, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .author {
+    right: 5px;
+    top: 1px;
+    font-size: 9px;
+  }
+  /* line 882, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .vl {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  /* line 890, ../../../../../../../../../../../../../Users/ekaterinaanovskaa/Documents/ECO-FRIENDLY/sass/style.sass */
+  .container {
+    overflow: hidden;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
