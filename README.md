@@ -1,5 +1,5 @@
 ## Проект создан в учебных целях
-- сайт о политре цветов 
+- сайт о палитре цветов 
 [ECO-FRIENDLY](https://katyayanovskaya.github.io/ECO-FRIENDLY/)
 
 ### Цели проекта: 
